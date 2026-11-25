@@ -1187,7 +1187,7 @@ impl Launcher {
         self.targets.push((eq_btn_rect, Action::OpenControlEditor));
 
         let brand_w = (eq_btn_rect[0] - 66.0).max(70.0);
-        ui.text(Face::SemiBold, 16.0, 54.0, 10.0, my3_text(), "Starling");
+        ui.text(Face::SemiBold, 16.0, 54.0, 10.0, my3_text(), "Demon King");
         let fitted_version = ui.fit_text(Face::Regular, 11.0, &self.app_version, brand_w);
         ui.text(
             Face::Regular,
