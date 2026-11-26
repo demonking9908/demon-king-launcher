@@ -1148,7 +1148,7 @@ impl Launcher {
         ui.draw_theme_background(0.0, 0.0, w, h, &active_th);
 
         // ---- Top Header Bar (brand lockup ... account pill) ----
-        ui.horizon_logo(18.0, 12.0, 28.0);
+       // ui.horizon_logo(18.0, 12.0, 28.0);
         let account_name = self
             .login
             .profile
