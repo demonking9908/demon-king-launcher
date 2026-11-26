@@ -1500,7 +1500,7 @@ impl Launcher {
                         } else if installed {
                             "Play Minecraft 26.3"
                         } else {
-                            "Set up Starling"
+                            "Set up Demon King"
                         },
                         Action::Play,
                         true,
